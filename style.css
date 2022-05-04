@@ -1,0 +1,139 @@
+* {
+margin:0 auto;
+padding:0;
+opacity: 0.9;
+}
+
+body{
+    color: seashell;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    
+}
+h2{
+    padding-bottom:20px;
+}
+
+.site-header{
+    width: 100%;
+    height: 69px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    top: 0;
+    left: 0;
+    z-index:10;
+    background-color: black;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+
+.nav-bar li{
+    padding: 0 10px;
+    list-style: none;
+    text-decoration-line: underline;
+    align-items: flex-end;
+}
+
+.hero-section{
+    margin-top: 70px;
+    height: 700px;
+    width: 1200px;
+    background-image: url(resources/img-mission-background.jpeg);
+    
+}
+
+.mission-title{
+   position: absolute; 
+   top: 385px;
+   width: 1200px;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: black;;
+}
+
+.month-container{
+   width: 1000px;
+   padding:40px;
+}
+
+.tea-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+.tea{
+    padding:10px;
+}
+
+.location-section{
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+    background-image: url(resources/img-locations-background.jpeg);
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.location-section-container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.location-container{
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    gap:20px;
+}
+
+.location-heading{
+    margin-bottom: 15px;
+    position: absolute;
+    z-index: 100;
+    text-shadow: 2px 2px 8px black;
+}
+
+.location{
+    width: 300px;
+    margin: 40px 0;
+    padding:20px;
+    background-color: black;
+    
+}
+.footer{
+    
+    padding:20px;
+    
+}
+
+.contact{
+    padding: 20px;
+    height:200px;
+    display: flex;
+    justify-items: center;
+    align-content:space-between;
+}
+
+.copyright{
+    text-align: left;
+    margin-left: 20px;
+}
